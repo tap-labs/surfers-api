@@ -1,0 +1,41 @@
+apiVersion: carto.run/v1alpha1
+kind: Workload
+metadata:
+  name: surfersapi
+  labels:
+    apps.tanzu.vmware.com/workload-type: web
+    app.kubernetes.io/part-of: surferslookout
+    apps.tanzu.vmware.com/has-tests: "true"
+    apps.tanzu.vmware.com/language: python
+    apis.apps.tanzu.vmware.com/register-api: "true"
+spec:
+  params:
+  - name: clusterBuilder
+    value: full
+  - name: annotations
+    value:
+      autoscaling.knative.dev/min-scale: "1"
+      autoscaling.knative.dev/max-scale: "50"
+      autoscaling.knative.dev/scale-down-delay: "2s"
+      autoscaling.knative.dev/initial-scale: "1"
+      autoscaling.knative.dev/window: "10s"
+      autoscaling.knative.dev/target: "40"
+      autoscaling.knative.dev/metric: "rps"
+      autoscaling.knative.dev/target: "50"
+  - name: api_descriptor
+    value:
+      type: openapi
+      location:
+        path: "/api/v1/swagger.json"
+      owner: group:surfers-crew
+      system: surferslookout
+      description: "Surferslookout forecast api"
+  - name: git_user_email
+    value: davidlloyd0@gmail.com
+  - name: git_user_name
+    value: davlloyd
+  source:
+    git:
+      url: https://github.com/davlloyd/surfers-api
+      ref:
+        branch: main

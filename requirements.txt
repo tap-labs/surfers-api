@@ -1,0 +1,15 @@
+werkzeug==2.1.2
+pyservicebinding
+sqlalchemy
+pysqlite3
+python-dotenv
+feedparser
+pytest
+openapi-schema-validator
+openapi-spec-validator
+fastapi
+uvicorn
+pydantic
+lru_cache
+celery
+requests

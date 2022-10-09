@@ -1,0 +1,18 @@
+apiVersion: apis.apps.tanzu.vmware.com/v1alpha1
+kind: APIDescriptor
+metadata:
+  name: surfers-api-descriptor
+spec:
+  description: "API Endpoints to provide climate data to the Surfers web front end"
+  location:
+    baseURL:
+      ref:
+        apiVersion: serving.knative.dev/v1
+        kind: Service
+        name: surfersapi
+    path: "/api/v1/swagger.json"
+  owner: group:surfers-crew
+  system: surfers-system
+  type: openapi
+
+      
