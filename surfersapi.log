@@ -367,3 +367,115 @@
 2022-10-09 18:51:56,961 - surfersapi.logger - INFO - Data import completed
 2022-10-09 18:51:56,961 - surfersapi.logger - INFO - Create routers
 2022-10-09 18:51:57,124 - surfersapi.logger - INFO - Feed Record Added: BOM
+2022-10-09 19:22:37,063 - surfersapi.logger - INFO - Starting Application
+2022-10-09 19:22:37,064 - surfersapi.logger - INFO - Initialising App Factory
+2022-10-09 19:22:37,066 - surfersapi.logger - INFO - Create celery instance
+2022-10-09 19:22:37,105 - surfersapi.logger - INFO - Setup database
+2022-10-09 19:22:37,106 - surfersapi.logger - INFO - DB URI: sqlite:////Users/lloydd/Documents/git/surfers/backend/data.sqlite
+2022-10-09 19:22:37,106 - surfersapi.logger - INFO - Create DB
+2022-10-09 19:22:37,123 - surfersapi.logger - INFO - Importing data
+2022-10-09 19:22:37,171 - surfersapi.logger - INFO - Feed Record Added: NSW Marine Warnings
+2022-10-09 19:22:37,177 - surfersapi.logger - INFO - Feed Record Added: Qld Marine Warnings
+2022-10-09 19:22:37,183 - surfersapi.logger - INFO - Feed Record Added: Vic Marine Warnings
+2022-10-09 19:22:37,190 - surfersapi.logger - INFO - Feed Record Added: WA Marine Warnings
+2022-10-09 19:22:37,196 - surfersapi.logger - INFO - Feed Record Added: SA Marine Warnings
+2022-10-09 19:22:37,202 - surfersapi.logger - INFO - Feed Record Added: Tas Marine Warnings
+2022-10-09 19:22:37,208 - surfersapi.logger - INFO - Feed Record Added: NT Marine Warnings
+2022-10-09 19:22:37,208 - surfersapi.logger - INFO - Data import completed
+2022-10-09 19:22:37,208 - surfersapi.logger - INFO - Create routers
+2022-10-09 19:59:34,527 - surfersapi.logger - INFO - Starting Application
+2022-10-09 19:59:34,528 - surfersapi.logger - INFO - Initialising App Factory
+2022-10-09 19:59:34,530 - surfersapi.logger - INFO - Create celery instance
+2022-10-09 19:59:34,718 - surfersapi.logger - INFO - Setup database
+2022-10-09 19:59:34,719 - surfersapi.logger - INFO - DB URI: sqlite:////Users/lloydd/Documents/git/surfers/backend/data.sqlite
+2022-10-09 19:59:34,719 - surfersapi.logger - INFO - Create DB
+2022-10-09 19:59:34,735 - surfersapi.logger - INFO - Importing data
+2022-10-09 19:59:34,780 - surfersapi.logger - INFO - Feed Record Added: NSW Marine Warnings
+2022-10-09 19:59:34,786 - surfersapi.logger - INFO - Feed Record Added: Qld Marine Warnings
+2022-10-09 19:59:34,791 - surfersapi.logger - INFO - Feed Record Added: Vic Marine Warnings
+2022-10-09 19:59:34,798 - surfersapi.logger - INFO - Feed Record Added: WA Marine Warnings
+2022-10-09 19:59:34,803 - surfersapi.logger - INFO - Feed Record Added: SA Marine Warnings
+2022-10-09 19:59:34,808 - surfersapi.logger - INFO - Feed Record Added: Tas Marine Warnings
+2022-10-09 19:59:34,816 - surfersapi.logger - INFO - Feed Record Added: NT Marine Warnings
+2022-10-09 19:59:34,817 - surfersapi.logger - INFO - Data import completed
+2022-10-09 19:59:34,817 - surfersapi.logger - INFO - Create routers
+2022-10-09 20:06:49,442 - surfersapi.logger - INFO - Starting Application
+2022-10-09 20:06:49,443 - surfersapi.logger - INFO - Initialising App Factory
+2022-10-09 20:06:49,444 - surfersapi.logger - INFO - Create celery instance
+2022-10-09 20:06:49,516 - surfersapi.logger - INFO - Setup database
+2022-10-09 20:06:49,516 - surfersapi.logger - INFO - DB URI: sqlite:////Users/lloydd/Documents/git/surfers/backend/data.sqlite
+2022-10-09 20:06:49,516 - surfersapi.logger - INFO - Create DB
+2022-10-09 20:06:49,531 - surfersapi.logger - INFO - Importing data
+2022-10-09 20:06:49,575 - surfersapi.logger - INFO - Feed Record Added: NSW Marine Warnings
+2022-10-09 20:06:49,581 - surfersapi.logger - INFO - Feed Record Added: Qld Marine Warnings
+2022-10-09 20:06:49,587 - surfersapi.logger - INFO - Feed Record Added: Vic Marine Warnings
+2022-10-09 20:06:49,593 - surfersapi.logger - INFO - Feed Record Added: WA Marine Warnings
+2022-10-09 20:06:49,599 - surfersapi.logger - INFO - Feed Record Added: SA Marine Warnings
+2022-10-09 20:06:49,604 - surfersapi.logger - INFO - Feed Record Added: Tas Marine Warnings
+2022-10-09 20:06:49,609 - surfersapi.logger - INFO - Feed Record Added: NT Marine Warnings
+2022-10-09 20:06:49,609 - surfersapi.logger - INFO - Data import completed
+2022-10-09 20:06:49,610 - surfersapi.logger - INFO - Create routers
+2022-10-09 20:10:54,732 - surfersapi.logger - INFO - Starting Application
+2022-10-09 20:10:54,732 - surfersapi.logger - INFO - Initialising App Factory
+2022-10-09 20:10:54,734 - surfersapi.logger - INFO - Create celery instance
+2022-10-09 20:10:54,776 - surfersapi.logger - INFO - Setup database
+2022-10-09 20:10:54,776 - surfersapi.logger - INFO - DB URI: sqlite:////Users/lloydd/Documents/git/surfers/backend/data.sqlite
+2022-10-09 20:10:54,776 - surfersapi.logger - INFO - Create DB
+2022-10-09 20:10:54,794 - surfersapi.logger - INFO - Importing data
+2022-10-09 20:10:54,838 - surfersapi.logger - INFO - Feed Record Added: NSW Marine Warnings
+2022-10-09 20:10:54,844 - surfersapi.logger - INFO - Feed Record Added: Qld Marine Warnings
+2022-10-09 20:10:54,851 - surfersapi.logger - INFO - Feed Record Added: Vic Marine Warnings
+2022-10-09 20:10:54,859 - surfersapi.logger - INFO - Feed Record Added: WA Marine Warnings
+2022-10-09 20:10:54,865 - surfersapi.logger - INFO - Feed Record Added: SA Marine Warnings
+2022-10-09 20:10:54,871 - surfersapi.logger - INFO - Feed Record Added: Tas Marine Warnings
+2022-10-09 20:10:54,876 - surfersapi.logger - INFO - Feed Record Added: NT Marine Warnings
+2022-10-09 20:10:54,877 - surfersapi.logger - INFO - Data import completed
+2022-10-09 20:10:54,877 - surfersapi.logger - INFO - Create routers
+2022-10-09 21:19:00,777 - surfersapi.logger - INFO - Starting Application
+2022-10-09 21:19:00,778 - surfersapi.logger - INFO - Initialising App Factory
+2022-10-09 21:19:00,779 - surfersapi.logger - INFO - Create celery instance
+2022-10-09 21:19:00,830 - surfersapi.logger - INFO - Setup database
+2022-10-09 21:19:00,830 - surfersapi.logger - INFO - DB URI: sqlite:////Users/lloydd/Documents/git/surfers/backend/data.sqlite
+2022-10-09 21:19:00,830 - surfersapi.logger - INFO - Create DB
+2022-10-09 21:19:00,854 - surfersapi.logger - INFO - Importing data
+2022-10-09 21:19:00,896 - surfersapi.logger - INFO - Feed Record Added: NSW Marine Warnings
+2022-10-09 21:19:00,901 - surfersapi.logger - INFO - Feed Record Added: Qld Marine Warnings
+2022-10-09 21:19:00,907 - surfersapi.logger - INFO - Feed Record Added: Vic Marine Warnings
+2022-10-09 21:19:00,915 - surfersapi.logger - INFO - Feed Record Added: WA Marine Warnings
+2022-10-09 21:19:00,921 - surfersapi.logger - INFO - Feed Record Added: SA Marine Warnings
+2022-10-09 21:19:00,926 - surfersapi.logger - INFO - Feed Record Added: Tas Marine Warnings
+2022-10-09 21:19:00,931 - surfersapi.logger - INFO - Feed Record Added: NT Marine Warnings
+2022-10-09 21:19:00,932 - surfersapi.logger - INFO - Data import completed
+2022-10-09 21:19:00,932 - surfersapi.logger - INFO - Create routers
+2022-10-09 21:20:44,267 - surfersapi.logger - INFO - Starting Application
+2022-10-09 21:20:44,267 - surfersapi.logger - INFO - Initialising App Factory
+2022-10-09 21:20:44,269 - surfersapi.logger - INFO - Create celery instance
+2022-10-09 21:20:44,303 - surfersapi.logger - INFO - Setup database
+2022-10-09 21:20:44,304 - surfersapi.logger - INFO - DB URI: sqlite:////Users/lloydd/Documents/git/surfers/backend/data.sqlite
+2022-10-09 21:20:44,304 - surfersapi.logger - INFO - Create DB
+2022-10-09 21:20:44,320 - surfersapi.logger - INFO - Importing data
+2022-10-09 21:20:44,363 - surfersapi.logger - INFO - Feed Record Added: NSW Marine Warnings
+2022-10-09 21:20:44,369 - surfersapi.logger - INFO - Feed Record Added: Qld Marine Warnings
+2022-10-09 21:20:44,374 - surfersapi.logger - INFO - Feed Record Added: Vic Marine Warnings
+2022-10-09 21:20:44,380 - surfersapi.logger - INFO - Feed Record Added: WA Marine Warnings
+2022-10-09 21:20:44,385 - surfersapi.logger - INFO - Feed Record Added: SA Marine Warnings
+2022-10-09 21:20:44,392 - surfersapi.logger - INFO - Feed Record Added: Tas Marine Warnings
+2022-10-09 21:20:44,397 - surfersapi.logger - INFO - Feed Record Added: NT Marine Warnings
+2022-10-09 21:20:44,397 - surfersapi.logger - INFO - Data import completed
+2022-10-09 21:20:44,397 - surfersapi.logger - INFO - Create routers
+2022-10-09 21:24:23,300 - surfersapi.logger - INFO - Starting Application
+2022-10-09 21:24:23,301 - surfersapi.logger - INFO - Initialising App Factory
+2022-10-09 21:24:23,302 - surfersapi.logger - INFO - Create celery instance
+2022-10-09 21:24:23,337 - surfersapi.logger - INFO - Setup database
+2022-10-09 21:24:23,337 - surfersapi.logger - INFO - DB URI: sqlite:////Users/lloydd/Documents/git/surfers/backend/data.sqlite
+2022-10-09 21:24:23,338 - surfersapi.logger - INFO - Create DB
+2022-10-09 21:24:23,354 - surfersapi.logger - INFO - Importing data
+2022-10-09 21:24:23,401 - surfersapi.logger - INFO - Feed Record Added: NSW Marine Warnings
+2022-10-09 21:24:23,406 - surfersapi.logger - INFO - Feed Record Added: Qld Marine Warnings
+2022-10-09 21:24:23,412 - surfersapi.logger - INFO - Feed Record Added: Vic Marine Warnings
+2022-10-09 21:24:23,418 - surfersapi.logger - INFO - Feed Record Added: WA Marine Warnings
+2022-10-09 21:24:23,424 - surfersapi.logger - INFO - Feed Record Added: SA Marine Warnings
+2022-10-09 21:24:23,432 - surfersapi.logger - INFO - Feed Record Added: Tas Marine Warnings
+2022-10-09 21:24:23,437 - surfersapi.logger - INFO - Feed Record Added: NT Marine Warnings
+2022-10-09 21:24:23,438 - surfersapi.logger - INFO - Data import completed
+2022-10-09 21:24:23,438 - surfersapi.logger - INFO - Create routers
