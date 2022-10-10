@@ -83,14 +83,14 @@ async def observation(geotag: str):
 ''' Get location information based on part of full location name and other values'''
 @router.get(
     '/locations/{searchstring}', 
-    response_model=Location,
+    response_model=List[Location],
     responses={
         404: {"model": Message, "description": "The item was not found"},
         200: {
             "description": "Find location information based on part of search value",
             "content": {
                 "application/json": {
-                    'example': {'geohash': 'r6586vr', 'name': 'Mona Vale', 'postcode': '2103', 'state': 'NSW'}
+                    'example': [{'geohash': 'r6586vr', 'name': 'Mona Vale', 'postcode': '2103', 'state': 'NSW'}]
                 }
             },
         },

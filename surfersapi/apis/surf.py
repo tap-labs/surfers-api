@@ -9,18 +9,15 @@ router = APIRouter(
 )
 
 
-swell_example = [
-    {
+swell_example = {
         'height': 6,
         'interval': 11,
         'direction': 'SE'
-    },
-]
+    }
 
 
-water_example = [
-    {'temperature': 22},
-]
+water_example = {'temperature': 22}
+
 
 class Swell(BaseModel):
     height: int
@@ -50,11 +47,6 @@ async def swell(location_id: str):
     if location_id:
         '''Get swell forecast from location identifier'''
         return swell_example
-
-    {
-        "name": "water",
-        "schema": "{'temperature': 22}"
-    },
 
 
 @router.get(
