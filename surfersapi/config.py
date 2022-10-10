@@ -43,6 +43,8 @@ def get_settings():
         'default': DevelopmentConfig
     }
     _config = config[BaseConfig.ENV]
+    if 'sqlite' in _config.DATABASE_URL:
+         _config.DATABASE_CONNECT_DICT = {'check_same_thread': False}
     return _config
 
 settings = get_settings()

@@ -30,8 +30,8 @@ def create_app() -> FastAPI:
         openapi_tags=tags_metadata
     ) 
 
-    logger.info(f'Create celery instance')
-    app.celery_app = create_celery()
+    #logger.info(f'Create celery instance')
+    #app.celery_app = create_celery()
 
     logger.info(f'Setup database')
     DataManager.initDB()

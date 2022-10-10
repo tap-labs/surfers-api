@@ -1,4 +1,5 @@
 from fastapi import APIRouter
+from typing import List, Optional
 from pydantic import BaseModel
 from fastapi.responses import JSONResponse
 from surfersapi.services import feeds
@@ -13,7 +14,7 @@ router = APIRouter(
 
 
 class Alert(BaseModel):
-    title: int
+    title: str
     location: str
     published: str
     link: str
@@ -37,14 +38,14 @@ class Observation(BaseModel):
 '''Get weather alerts'''
 @router.get(
     '/alert',
-    response_model=Alert,
+    response_model=List[Alert],
     responses={
         404: {"model": Message, "description": "The item was not found"},
         200: {
             "description": "Get weather alerts notices",
             "content": {
                 "application/json": {
-                    "example": {'title': 'Heavy wind alert NSW', 'location': 'New South Wales', 'published': 'some time details', 'link': 'http://somewhere.weather.com'}
+                    "example": [{'title': 'Heavy wind alert NSW', 'location': 'New South Wales', 'published': 'some time details', 'link': 'http://somewhere.weather.com'}]
                 }
             },
         },
