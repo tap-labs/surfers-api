@@ -48,3 +48,16 @@ def test_api_spec(test_client):
     _response = test_client.get('/api/v1/api-docs')
     assert _response.status_code == 200, "Check that openapi doc accessible"
     assert b"openapi" in _response.content, "Check that content of openapi doc readable"
+
+# test that the alert 
+def __test_alerts_api(test_client):
+    """
+    GIVEN Weather alert rss streem API
+    WHEN the api '/api/v1/weather/alert' is requested
+    THEN validate the response
+    """
+
+    _response = test_client.get('/api/v1/weather/alert')
+    assert _response.status_code == 200, "Check that api is accessible"
+    assert b"title" in _response.content, "Check that content has title field as expected"
+    assert b"location" in _response.content, "Check that content has location field as expected"
