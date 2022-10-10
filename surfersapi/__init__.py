@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .celery_utils import create_celery
+#from .celery_utils import create_celery
 from .logger import logger
 from .data.utilities import DataManager
 
