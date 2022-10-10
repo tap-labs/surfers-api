@@ -1,6 +1,4 @@
-from openapi_spec_validator import validate_spec_url
 import pytest
-from openapi_spec_validator.validation.exceptions import ValidatorDetectError
 
 # Test web app home page
 def test_swagger_page(test_client):
