@@ -10,7 +10,7 @@ spec:
         apiVersion: serving.knative.dev/v1
         kind: Service
         name: surfersapi
-    path: "/api/v1/swagger.json"
+    path: "/api/v1/tech-docs"
   owner: group:surfers-crew
   system: surfers-system
   type: openapi

@@ -1,4 +1,5 @@
 from enum import Enum, unique
+from surfersapi.logger import logger
 from . import web
 
 
@@ -7,6 +8,7 @@ Get current weather observations for stated location.
 Location needs to be set by the BOM geohash value
 """
 def observations(geohash):
+    logger.info(f"reading current weather from BOM for location {geohash}")
     _observations = web.get(API_URL.OBSERVATIONS.set_location(geohash))
     _data = {}
     if _observations['data'] is not None:

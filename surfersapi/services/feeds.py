@@ -1,8 +1,9 @@
 import feedparser
 from surfersapi.data.models import *
+from surfersapi.logger import logger
 
 def getWeather():
-    #app.logger.info('RSS Weather Request')
+    logger.info('RSS Weather Request')
     _json = []
     for _feedentry in Feed.get():
         _feeddata = readFeed(_feedentry.url, _feedentry.location)
@@ -13,7 +14,7 @@ def getWeather():
     return _json
  
 def readFeed(url, location):
-    #app.logger.info('RSS feed Read for: {}'.format(url))
+    logger.info('RSS feed Read for: {}'.format(url))
     _headers = {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
         'Accept-Encoding': 'gzip, deflate',
@@ -26,7 +27,7 @@ def readFeed(url, location):
     _feed = feedparser.parse(url, request_headers=_headers)
     _response = None
     for _entry in _feed.entries:
-        #app.logger.info("RSS entry keys: {}".format(_entry.keys()))
+        logger.info("RSS entry keys: {}".format(_entry.keys()))
         if _response is None:
             _response = []
         _feedinfo = {

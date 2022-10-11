@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "FASTAPI: app.py launch",
+            "name": "API: app.py launch",
             "type": "python",
             "request": "launch",
             "program": "app.py",
@@ -13,7 +13,7 @@
             "justMyCode": true
         },
         {
-            "name": "FASTAPI: native",
+            "name": "API: native",
             "type": "python",
             "request": "launch",
             "module": "uvicorn",
@@ -25,7 +25,7 @@
             "justMyCode": true
         },
         {
-            "name": "FASTAPI: PyTest",
+            "name": "API: PyTest",
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
