@@ -16,5 +16,5 @@ build/
 data.sqlite
 scratchpad
 site/
-surfersapi.log
+*.log
 
