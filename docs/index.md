@@ -4,7 +4,7 @@
 Surfers Lookout is a surf forecast and webcam service to provide current conditions and views of surf breaks to the surfing community
 
 ## What is the Backend Function
-This is the API aggegrator for the Surfers Lookout application. This provides the web forms for interacting with Surfers Lookout
+The *SurfersAPI* component of the *SurfersLookout* system provides a Restful API service for the Web frontend service to provide data related to weather and surf conditions from various sources.  
 
 ## Requirements
 - Python 3.10+
