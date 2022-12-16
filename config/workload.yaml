@@ -12,7 +12,7 @@ metadata:
 spec:
   params:
   - name: clusterBuilder
-    value: full
+    value: full-jammy
   - name: annotations
     value:
       autoscaling.knative.dev/min-scale: "1"

@@ -1,6 +1,5 @@
 pyservicebinding
 sqlalchemy
-pysqlite3
 python-dotenv
 feedparser
 pytest
