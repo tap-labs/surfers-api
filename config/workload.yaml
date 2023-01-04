@@ -27,6 +27,7 @@ spec:
     value:
       type: openapi
       location:
+        baseURL: "http://surfersapi.default"      # Added baseURL to prevent the resolvedURL pointing to the SSL url
         path: "/api/v1/api-docs"
       owner: group:surfers-crew
       system: surferslookout

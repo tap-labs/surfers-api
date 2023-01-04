@@ -1,5 +1,5 @@
 pyservicebinding
-sqlalchemy
+sqlalchemy<2.0
 python-dotenv
 feedparser
 pytest
