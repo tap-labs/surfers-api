@@ -9,6 +9,7 @@ metadata:
     apps.tanzu.vmware.com/has-tests: "true"
     apps.tanzu.vmware.com/language: python
     apis.apps.tanzu.vmware.com/register-api: "true"
+    component: backend
 spec:
   params:
   - name: clusterBuilder

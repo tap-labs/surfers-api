@@ -35,7 +35,7 @@ class Feed(Base):
 
         if self.id is None:
             _resp = Feed.query.with_entities(Feed.id).filter(Feed.name == self.name).first()
-            _id = _resp["id"]
+            _id = _resp.id
         else:
             _id = self.id
 

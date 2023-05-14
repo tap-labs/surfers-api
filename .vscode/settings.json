@@ -1,5 +1,8 @@
 {
     "tanzu.localPath": ".",
     "tanzu.namespace": "alpha",
-    "tanzu.sourceImage": "us.gcr.io/lloyd-266015/supply-chain/surfersapi-source"
+    "tanzu.sourceImage": "us.gcr.io/lloyd-266015/supply-chain/surfersapi-source",
+    "python.autoComplete.extraPaths": [
+        
+    ]
 }
