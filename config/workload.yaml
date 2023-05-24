@@ -30,8 +30,8 @@ spec:
       location:
         #baseURL: "http://surfersapi.default"      # Added baseURL to prevent the resolvedURL pointing to the SSL url
         path: "/api/v1/api-docs"
-      owner: group:surfers-crew
-      system: surferslookout
+      owner: group:labs-crew
+      system: labs-system
       description: "Surferslookout forecast api"
   - name: git_user_email
     value: davidlloyd0@gmail.com
@@ -39,6 +39,6 @@ spec:
     value: davlloyd
   source:
     git:
-      url: https://github.com/davlloyd/surfers-api
+      url: https://github.com/tap-labs/surfers-api
       ref:
         branch: main

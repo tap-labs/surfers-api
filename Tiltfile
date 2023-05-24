@@ -1,8 +1,8 @@
 APP_NAME = "surfersapi"
-SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='u/supply-chains.gcr.io/lloyd-266015/surfersapi-source')
+SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='harbor.services.tanzu.rocks/tap3/surfersapi-source')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
-NAMESPACE = os.getenv("NAMESPACE", default='alpha')
-K8S_CONTEXT = os.getenv("K8S_CONTEXT", default="tap-aus-2")
+NAMESPACE = os.getenv("NAMESPACE", default='default')
+K8S_CONTEXT = os.getenv("K8S_CONTEXT", default="tap-aus-3")
 WORKLOAD_FILE = "config/workload.yaml"
 
 k8s_custom_deploy(
