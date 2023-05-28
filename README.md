@@ -1,4 +1,4 @@
-# Surfers Lookout
+# Surfers Lookout API
 
 Writing this as want to create a Surf report web site, including Live CAMs without all the bloat and privacy issues in the commercial crop dominating the internet. This has been motiviated by the fact that all local sites here in Sydney now have enforced a charge model for what is typically low quality reporting with CAM feeds from public cameras.
 
